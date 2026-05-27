@@ -1,0 +1,186 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1779835848749,
+  "projectRoot": "/Users/yongs/workspace/evaluation-front",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "vue",
+        "version": "3.5.10",
+        "category": "frontend"
+      },
+      {
+        "name": "vite",
+        "version": "5.4.8",
+        "category": "build"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build 2>&1 | tail -20",
+    "testCommand": null,
+    "lintCommand": "npm run lint",
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "vite",
+      "build": "vue-tsc -b && vite build",
+      "preview": "vite preview",
+      "typecheck": "vue-tsc --noEmit",
+      "lint": "eslint . --ext .vue,.ts,.tsx --max-warnings=0",
+      "sync-types": "bash ../evaluation-back-end/scripts/sync-types.sh"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": "type-based"
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "src"
+    ],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "dist": {
+      "path": "dist",
+      "purpose": "Distribution/build output",
+      "fileCount": 1,
+      "lastAccessed": 1779835848717,
+      "keyFiles": [
+        "index.html"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 2,
+      "lastAccessed": 1779835848719,
+      "keyFiles": [
+        "App.vue",
+        "main.ts"
+      ]
+    },
+    "dist/assets": {
+      "path": "dist/assets",
+      "purpose": "Static assets",
+      "fileCount": 15,
+      "lastAccessed": 1779835848729,
+      "keyFiles": [
+        "AdminJudgesView-Do3ofBoK.js",
+        "AdminSettingsView-bHAmeDwc.js",
+        "AdminTeamsView-BbSs6LM5.js"
+      ]
+    },
+    "src/api": {
+      "path": "src/api",
+      "purpose": "API routes",
+      "fileCount": 4,
+      "lastAccessed": 1779835848729,
+      "keyFiles": [
+        "admin.ts",
+        "auth.ts",
+        "client.ts"
+      ]
+    },
+    "src/assets": {
+      "path": "src/assets",
+      "purpose": "Static assets",
+      "fileCount": 1,
+      "lastAccessed": 1779835848729,
+      "keyFiles": [
+        "main.css"
+      ]
+    },
+    "src/components": {
+      "path": "src/components",
+      "purpose": "UI components",
+      "fileCount": 1,
+      "lastAccessed": 1779835848729,
+      "keyFiles": [
+        "ToastHost.vue"
+      ]
+    },
+    "src/lib": {
+      "path": "src/lib",
+      "purpose": "Library code",
+      "fileCount": 1,
+      "lastAccessed": 1779835848730,
+      "keyFiles": [
+        "export.ts"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": ".env.example",
+      "accessCount": 2,
+      "lastAccessed": 1779838623988,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 1,
+      "lastAccessed": 1779835858980,
+      "type": "file"
+    },
+    {
+      "path": "src/api/client.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779838578197,
+      "type": "file"
+    },
+    {
+      "path": "vite.config.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779838578716,
+      "type": "file"
+    },
+    {
+      "path": "env.d.ts",
+      "accessCount": 1,
+      "lastAccessed": 1779838579206,
+      "type": "file"
+    },
+    {
+      "path": ".env",
+      "accessCount": 1,
+      "lastAccessed": 1779838614106,
+      "type": "file"
+    },
+    {
+      "path": ".env.production",
+      "accessCount": 1,
+      "lastAccessed": 1779838615106,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
